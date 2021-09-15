@@ -19,6 +19,8 @@ public class MyBinaryTreeTest {
 		System.out.println("Size of the tree is "+myBinaryTree.getSize());
 		System.out.println("Nodes of BST are:");  
 		myBinaryTree.getNodes();
+		System.out.println();
+		myBinaryTree.search(63);
 	}
 
 }
